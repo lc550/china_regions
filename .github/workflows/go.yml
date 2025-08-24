@@ -24,13 +24,14 @@ jobs:
       - name: upload json
         uses: actions/upload-artifact@v4.4.0
         with:
-          name: "省市区街道json"
+          name: "cn-regions"
           path: json/
           retention-days: 5
 
       - name: upload sql
         uses: actions/upload-artifact@v4.4.0
         with:
-          name: "省市区街道sql"
+          name: "cn-regionssql"
           path: sql/
           retention-days: 5
+
